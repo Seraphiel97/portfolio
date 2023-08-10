@@ -2,10 +2,13 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <div>
-        <h1>Seth Graves</h1>
-        <h3>LinkedIn</h3>
-        <h3>Github</h3>
+    <div className='inline-flex'>
+        <div className='text-center'>
+            <p className=''>Seth Graves</p>
+            <p>LinkedIn</p>
+            <p>Github</p>
+        </div>
     </div>
+    
   )
 }
